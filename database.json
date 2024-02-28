@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "id": "e6a29f20-0497-1e8b-96af-3ff98e15afcd",
+      "email": "at1@gmail.com",
+      "password": "123123"
+    }
+  ],
+  "adm_users": [
+    {
+      "id": "ad1275e0-05ce-1e8b-96af-3ff98e15afcd",
+      "email": "terminal1@gmail.com",
+      "password": "123123"
+    }
+  ],
+  "attendantDeskAssignment": [
+    {
+      "id": "63d86440-a0e2-1ed9-b3a5-2967e2b08758",
+      "user_id": "e6a29f20-0497-1e8b-96af-3ff98e15afcd",
+      "desk_number": 8,
+      "date_created": "2024-02-25T13:05:41.708081",
+      "status": "Available"
+    }
+  ],
+  "patients": [
+    {
+      "id": "df37d390-bbbd-1e99-8449-b3d9f4a76aa2",
+      "name": "Rodrigo Rahman",
+      "email": "rodrigorahman@academiadoflutter.com.br",
+      "phone_number": "(11) 1231212312",
+      "document": "123.123.123-12",
+      "address": {
+        "cep": "09190390",
+        "street_address": "Rua X",
+        "number": "51",
+        "address_complement": "",
+        "state": "SP",
+        "city": "Santo André",
+        "district": "Jardins"
+      },
+      "guardian": "",
+      "guardian_identification_number": ""
+    },
+    {
+      "id": "6402ffa0-416a-1e9f-b2f7-f5ea14e69650",
+      "name": "Teste Paciente",
+      "email": "teste@teste.com.br",
+      "phone_number": "(11) 1111-1111",
+      "document": "111.111.111-11",
+      "address": {
+        "cep": "11.111-111",
+        "street_address": "teste",
+        "number": "teste",
+        "address_complement": "teste",
+        "state": "teste",
+        "city": "teste",
+        "district": "teste"
+      },
+      "guardian": "",
+      "guardian_identification_number": ""
+    }
+  ],
+  "patientInformationForm": [
+    {
+      "id": "b81909e0-3911-1ebf-87c5-9bac034cbfbb",
+      "patient_id": "df37d390-bbbd-1e99-8449-b3d9f4a76aa2",
+      "health_insurance_card": "/storage/qisqencw_jrs_1708133884965.jpg",
+      "medical_order": [
+        "/storage/tkdxlnmp_jrs_1708133890679.jpg"
+      ],
+      "password": "Matheus Gonzaga",
+      "data_created": "2024-02-25T15:41:50.666417",
+      "status": "Checked In",
+      "tests": []
+    },
+    {
+      "id": "b81909e0-3911-1ebf-87c5-9bac034cbfb1",
+      "patient_id": "df37d390-bbbd-1e99-8449-b3d9f4a76aa2",
+      "health_insurance_card": "/storage/qisqencw_jrs_1708133884965.jpg",
+      "medical_order": [
+        "/storage/tkdxlnmp_jrs_1708133890679.jpg"
+      ],
+      "password": "Isabella Gomes",
+      "data_created": "2024-02-25T15:41:50.666417",
+      "status": "Checked In",
+      "tests": []
+    },
+    {
+      "id": "00a243b0-914b-1ed9-b231-7321daf45726",
+      "patient_id": "df37d390-bbbd-1e99-8449-b3d9f4a76aa2",
+      "health_insurance_card": "/storage/bscepwbv_jrs_1708875420810.jpg",
+      "medical_order": [
+        "/storage/mowkjkhy_jrs_1708875426152.jpg"
+      ],
+      "password": "Matheus  Gonzaga",
+      "data_created": "2024-02-25T15:37:01.528100",
+      "status": "Waiting",
+      "tests": []
+    },
+    {
+      "id": "3195ffe0-93ec-1ed9-92b3-03bc713df25b",
+      "patient_id": "df37d390-bbbd-1e99-8449-b3d9f4a76aa2",
+      "health_insurance_card": "/storage/vdgdytvx_jrs_1708875710263.jpg",
+      "medical_order": [
+        "/storage/cgjxkwok_jrs_1708875715679.jpg"
+      ],
+      "password": "Matheus Gonzaga",
+      "data_created": "2024-02-25T15:41:50.666417",
+      "status": "Waiting",
+      "tests": []
+    }
+  ],
+  "painelCheckin": [
+    {
+      "id": "faf03620-255e-1ec8-a7d3-c18cd97ebfc3",
+      "password": "Isabella Gomes",
+      "time_called": "2024-02-19T20:24:13.813438",
+      "attendant_desk": 18
+    },
+    {
+      "id": "9a29e650-284d-1ec8-8a2c-8def5860155a",
+      "password": "Matheus Gonzaga",
+      "time_called": "2024-02-19T20:29:36.191628",
+      "attendant_desk": 2
+    },
+    {
+      "id": "98aae340-3e4d-1ec8-8a2c-8def5860155a",
+      "password": "Isabella Gomes",
+      "time_called": "2024-02-19T21:09:55.111548",
+      "attendant_desk": 8
+    },
+    {
+      "id": "ce30e950-f024-1ed6-9a9c-ad0a8880618b",
+      "password": "Matheus Gonzaga",
+      "time_called": "2024-02-24T16:03:33.878488",
+      "attendant_desk": 12
+    },
+    {
+      "id": "41decc70-f041-1ed6-9a9c-ad0a8880618b",
+      "password": "Isabella Gomes",
+      "time_called": "2024-02-24T16:03:46.104611",
+      "attendant_desk": 12
+    },
+    {
+      "id": "3319ec10-9481-1ed9-b868-91c2edc1fd94",
+      "password": "Matheus Gonzaga",
+      "time_called": "2024-02-25T12:43:00.525101",
+      "attendant_desk": 8
+    },
+    {
+      "id": "135a4370-94c2-1ed9-b868-91c2edc1fd94",
+      "password": "Isabella Gomes",
+      "time_called": "2024-02-25T12:43:28.402773",
+      "attendant_desk": 8
+    }
+  ],
+  "tests": [
+    {
+      "id": "3b2526a7-96ad-4884-8d89-aac3a8f8d1e1",
+      "name": "Endoscopia"
+    },
+    {
+      "id": "89b5ecf8-dcdd-42fd-b1ec-335537b661cc",
+      "name": "Exame de Sangue"
+    },
+    {
+      "id": "4c7c2c0e-84fa-4b91-aff1-f8f9a99b4925",
+      "name": "Ressonância Magnética"
+    },
+    {
+      "id": "49d4cb2e-afd5-4345-ac03-92ec451c0601",
+      "name": "Tomografia Computadorizada"
+    },
+    {
+      "id": "0c4f178f-8b57-4f03-bbd5-5463e228d810",
+      "name": "Ultrassonografia"
+    },
+    {
+      "id": "56ec8065-417f-4082-bcb5-1900b504c78d",
+      "name": "Eletrocardiograma"
+    },
+    {
+      "id": "fb685fbd-853e-49f2-8a55-1086d08db53e",
+      "name": "Raio-X"
+    },
+    {
+      "id": "93d3d43a-2f14-4d00-984b-d46f35c76142",
+      "name": "Colonoscopia"
+    },
+    {
+      "id": "957a344b-ec07-4023-8e51-1adfa4e62a05",
+      "name": "Teste de Esforço"
+    },
+    {
+      "id": "98b881bc-67cf-4e10-adca-17a1f59d798e",
+      "name": "Biopsia"
+    },
+    {
+      "id": "9a4a3733-50cf-47ca-a671-2fbadd319d5b",
+      "name": "Eletroencefalograma"
+    },
+    {
+      "id": "222fd2b7-af4e-42e2-8f08-069cbcd0f728",
+      "name": "Exame de Urina"
+    },
+    {
+      "id": "590f8160-7920-40f7-9f44-cc6d42dff46d",
+      "name": "Holter 24 Horas"
+    },
+    {
+      "id": "c71c2048-0cb8-49a2-a4f2-3b0dcdee6dd6",
+      "name": "Mamografia"
+    },
+    {
+      "id": "05a0f0fb-6202-420a-8644-a1c1772c9da6",
+      "name": "Densitometria Óssea"
+    },
+    {
+      "id": "2b029e96-eb37-43ad-8475-2d5cd273ef7e",
+      "name": "Teste de Gravidez"
+    },
+    {
+      "id": "c0537924-ef52-43f9-8819-1f2a730eb5b7",
+      "name": "Teste de Glicemia"
+    },
+    {
+      "id": "0fb498bd-2a27-4c23-9cf4-87b8a633d218",
+      "name": "Esprometria"
+    },
+    {
+      "id": "67397c75-6ec4-4699-b52c-dadeb44b4734",
+      "name": "Audiometria"
+    },
+    {
+      "id": "09835021-acc2-4792-a167-46d067de7406",
+      "name": "Exame de Vista"
+    }
+  ]
+}
